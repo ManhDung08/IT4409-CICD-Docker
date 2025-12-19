@@ -32,7 +32,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: dockerhub-dungtm0812/it4409-cici-docker:staging
+          tags: dungtm0812/it4409-cicd-docker:staging
 
   deploy:
     name: Deploy to Server
